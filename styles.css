@@ -242,3 +242,16 @@ footer .brand small{color:#9aa39b}
   .callbar svg{width:20px;height:20px}
   footer{padding-bottom:7rem}
 }
+button{font:inherit}
+/* 390px: his own hero photo on the first screen */
+@media (max-width:760px){
+  .hero{padding-top:1rem}
+  .hero-grid{gap:1.2rem}
+  .hero-art{order:-1;min-height:250px}
+  .hero-art .main{left:0;border-radius:var(--radius)}
+  .hero-art .inset{width:34%;bottom:-8%;left:auto;right:4%}
+  .hero-art .tag{left:.8rem;right:auto;top:.8rem}
+  .hero h1{font-size:2.4rem}
+  .hero .lead{margin:1rem 0 1.4rem;font-size:1.05rem}
+  .hero-copy{padding-bottom:2.2rem}
+}
