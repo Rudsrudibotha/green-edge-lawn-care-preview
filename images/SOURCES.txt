@@ -1,42 +1,22 @@
-Green Edge Lawn Care — image sources
-Collected 2026-09-28 for a Dev Forge ZA speculative concept site.
-ALL photos are Green Edge Lawn Care's OWN images, published by the business on its
-public Nextdoor business page: https://nextdoor.com/pages/green-edge-lawn-care-princeton-tx/
-No stock photography is used.
-
-Brand
-  own-cover.jpg   Nextdoor business cover (Green Edge Lawn Care logo, green/cream)
-                  https://us1-photo.nextdoor.com/business_cover/39/ad/39ade942640a04856ff01f3191892609.jpeg
-  own-logo.jpg / own-logo-sm.jpg, ../favicon.png, ../apple-touch-icon.png
-                  Nextdoor business logo (grass mark)
-                  https://us1-photo.nextdoor.com/business_logo/67/50/6750f744c6c72b0f83c22569f337c6d1.jpeg
-
-Nextdoor business post 419263459 (16 Aug 2025, "fresh mulch and brown steel edging")
-  own-steel-edging-flowerbed-wide.jpg     post_photos/aa/c3/aac377d1ea001879ba5353173f8afa31.jpeg
-  own-steel-edging-flowerbed-closeup.jpg  post_photos/c6/96/c696efe27105ba7cfd4d7c782a47d7f4.jpeg
-  own-tree-fence-portrait.jpg             post_photos/ae/fe/aefebe26ed18917238fd1b7efec57d5c.jpeg
-  own-tree-bed-staked.jpg                 post_photos/9c/3c/9c3ca2824097994ec1112604c15748d2.jpeg
-
-Nextdoor business post 475602383 (services list)
-  own-stone-home-shrubs.jpg               post_photos/6f/8d/6f8d7c32a30653ed5edfd80a626622d0.jpeg
-  own-tree-ring-front-yard.jpg            post_photos/88/15/881532e42efcef92bf273fcf1462975e.jpeg
-  own-palm-planting.jpg                   post_photos/98/53/9853d0de15a5f33dfc57e6a4f112bd00.jpeg
-  own-side-bed-mulch-rock.jpg             post_photos/af/e5/afe58c08ae0f8c36d6e4ff5f25f0afb7.jpeg
-  own-two-story-tree-ring.jpg             post_photos/b5/2a/b52a9bcb25d550a1b7500fa5e9af8a6e.jpeg
-  own-work-truck.jpg                      post_photos/f8/e8/f8e81f2fb3a110b1c178b0502937ddf1.jpeg
-
-Nextdoor business post 377787785 (7 Jan 2025, "Weekly and biweekly services")
-  own-neighborhood-curb.jpg               post_photos/2d/6d/2d6d3c8879d32c04ead33078f0d0bf70.jpeg
-  own-corner-lot-lawn.jpg                 post_photos/57/11/571165017dc61fe4fb2cfd25c67f173f.jpeg
-  own-backyard-lawn.jpg                   post_photos/61/70/6170035c483bef9c1f5603eb63eda3e0.jpeg
-  own-twin-tree-rings.jpg                 post_photos/a5/31/a53180813c57423f84cece2ac56cc3b7.jpeg
-  own-sunset-front-lawn.jpg               post_photos/a9/a0/a9a028a7b76196689796f13406d15d00.jpeg
-  own-new-tree-front-lawn.jpg             post_photos/da/51/da51c5e6df89bfdd35df234575da99ff.jpeg
-  own-blue-home-street.jpg                post_photos/e4/7a/e47ae3cc543b17132ef2a117584f5b15.jpeg
-  own-tree-ring-portrait.jpg              post_photos/fe/6b/fe6b53f88891c7845598e8882de4c642.jpeg
-(Post photo base URL: https://us1-photo.nextdoor.com/ ; post-to-photo grouping parsed from page data and approximate.)
-
-Notes: images re-encoded (JPEG q84). For privacy, readable house numbers and street signs were
-softly blurred (2026-09-28): side-bed-mulch-rock, steel-edging-flowerbed-closeup/-wide, stone-home-shrubs,
-new-tree-front-lawn, sunset-front-lawn, twin-tree-rings, two-story-tree-ring, blue-home-street (street sign),
-corner-lot-lawn (street sign + partial house number). No licence plates were legible in any photo. Replace/confirm with the owner before any official launch.
+Image credits, Green Edge Lawn Care
+images/own-cover.jpg — Green Edge Lawn Care logo and brand colors — source: Green Edge Lawn Care (Nextdoor)
+images/own-logo.jpg — Green Edge Lawn Care logo with grass mark — source: Green Edge Lawn Care (Nextdoor)
+images/own-logo-sm.jpg — Green Edge Lawn Care logo with grass mark — source: Green Edge Lawn Care (Nextdoor)
+images/own-steel-edging-flowerbed-wide.jpg — Flowerbed with steel edging — source: Green Edge Lawn Care (Nextdoor)
+images/own-steel-edging-flowerbed-closeup.jpg — Close view of flowerbed with steel edging — source: Green Edge Lawn Care (Nextdoor)
+images/own-tree-fence-portrait.jpg — Landscaped tree bed beside a fence — source: Green Edge Lawn Care (Nextdoor)
+images/own-tree-bed-staked.jpg — Tree bed with support stakes — source: Green Edge Lawn Care (Nextdoor)
+images/own-stone-home-shrubs.jpg — Shrubs beside a stone-front home — source: Green Edge Lawn Care (Nextdoor)
+images/own-tree-ring-front-yard.jpg — Tree ring in a front yard — source: Green Edge Lawn Care (Nextdoor)
+images/own-palm-planting.jpg — Palm planting in a landscaped bed — source: Green Edge Lawn Care (Nextdoor)
+images/own-side-bed-mulch-rock.jpg — Side planting bed with mulch and rock — source: Green Edge Lawn Care (Nextdoor)
+images/own-two-story-tree-ring.jpg — Tree ring beside a two-story home — source: Green Edge Lawn Care (Nextdoor)
+images/own-work-truck.jpg — Green Edge Lawn Care work truck — source: Green Edge Lawn Care (Nextdoor)
+images/own-neighborhood-curb.jpg — Lawn along a neighborhood curb — source: Green Edge Lawn Care (Nextdoor)
+images/own-corner-lot-lawn.jpg — Landscaped corner-lot lawn — source: Green Edge Lawn Care (Nextdoor)
+images/own-backyard-lawn.jpg — Landscaped backyard lawn — source: Green Edge Lawn Care (Nextdoor)
+images/own-twin-tree-rings.jpg — Twin tree rings in a lawn — source: Green Edge Lawn Care (Nextdoor)
+images/own-sunset-front-lawn.jpg — Front lawn at sunset — source: Green Edge Lawn Care (Nextdoor)
+images/own-new-tree-front-lawn.jpg — Newly planted tree in a front lawn — source: Green Edge Lawn Care (Nextdoor)
+images/own-blue-home-street.jpg — Landscaped lawn beside a blue home — source: Green Edge Lawn Care (Nextdoor)
+images/own-tree-ring-portrait.jpg — Tree ring in a landscaped lawn — source: Green Edge Lawn Care (Nextdoor)
