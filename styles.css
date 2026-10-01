@@ -59,7 +59,12 @@ p{max-width:62ch}
 .nav ul a:not(.btn)::after{content:"";position:absolute;left:0;right:0;bottom:-2px;height:2px;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:transform .2s}
 .nav ul a:hover::after,.nav ul a[aria-current]::after{transform:scaleX(1)}
 .nav .btn{padding:.65rem 1.1rem}
-.menu-btn{display:none;background:none;border:2px solid var(--green);border-radius:var(--radius);padding:.45rem .7rem;font-weight:700;color:var(--green);font-family:var(--sans);font-size:.9rem}
+.menu-btn{display:none;background:none;border:2px solid var(--green);border-radius:var(--radius);padding:.45rem .7rem;font-weight:700;color:var(--green);font-family:var(--sans);font-size:.9rem;cursor:pointer}
+.menu-btn svg{width:18px;height:18px;flex:none}
+.menu-btn .i-close,.menu-btn[aria-expanded="true"] .i-open{display:none}
+.menu-btn[aria-expanded="true"] .i-close{display:block}
+.menu-btn[aria-expanded="true"]{background:var(--green);color:var(--cream)}
+.menu-btn:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
 
 /* ---------- hero ---------- */
 .hero{padding:clamp(2.5rem,6vw,5rem) 0 0;position:relative;overflow:hidden}
@@ -114,7 +119,7 @@ section{padding:clamp(4rem,9vw,7rem) 0}
 .svc{background:var(--paper);padding:0;display:flex;flex-direction:column}
 .svc img{aspect-ratio:16/10;object-fit:cover;width:100%}
 .svc .body{padding:1.5rem 1.6rem 1.8rem;border-top:5px solid var(--green);flex:1}
-.svc .num{font-family:var(--slab);font-size:.95rem;color:var(--gold);font-weight:700}
+.svc .num{font-family:var(--slab);font-size:.95rem;color:#b07f18;font-weight:700}  /* ~3.2:1 on paper */
 .svc h3{margin:.35rem 0 .55rem}
 .svc p{color:var(--muted);font-size:.98rem}
 
@@ -141,7 +146,7 @@ section{padding:clamp(4rem,9vw,7rem) 0}
 .plan ul{list-style:none;display:grid;gap:.55rem;margin:0 0 1.8rem}
 .plan li{padding-left:1.4rem;position:relative}
 .plan li::before{content:"";position:absolute;left:0;top:.72em;width:.8rem;height:3px;background:var(--gold)}
-.plan .quote{margin-top:auto;padding-top:1.2rem;border-top:1px dashed currentColor;font-weight:700;font-size:.92rem;opacity:.9;margin-bottom:1.2rem}
+.plan .quote{max-width:none;margin-top:auto;padding-top:1.2rem;border-top:1px dashed currentColor;font-weight:700;font-size:.92rem;opacity:.9;margin-bottom:1.2rem}
 .plan .btn{justify-content:center}
 .plan .ribbon{position:absolute;top:-12px;right:1.4rem;background:var(--gold);color:var(--green-deep);font-size:.72rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;padding:.35rem .7rem;border-radius:var(--radius)}
 
@@ -231,6 +236,8 @@ footer .brand small{color:#9aa39b}
   .edge-rule span:nth-child(-n+3){border-bottom:1px solid rgba(253,229,154,.22)}
   .gallery{grid-template-columns:repeat(2,1fr);grid-auto-rows:190px}
   .foot-grid{grid-template-columns:1fr 1fr}
+  .foot-grid>div:first-child{grid-column:1/-1}
+  .plans-grid .plan:last-child{grid-column:1/-1}
 }
 @media (max-width:760px){
   body{font-size:16px}
@@ -238,6 +245,7 @@ footer .brand small{color:#9aa39b}
   .hero-art{min-height:340px}
   .hero-art .main{left:8%}
   .svc-grid,.plans-grid,.contact-grid,.foot-grid{grid-template-columns:1fr}
+  .foot-grid>div:first-child,.plans-grid .plan:last-child{grid-column:auto}
   .edge-rule{grid-template-columns:1fr 1fr}
   .edge-rule span{border-right:0!important;border-bottom:1px solid rgba(253,229,154,.22)}
   .review-card{grid-template-columns:1fr}
@@ -253,7 +261,7 @@ footer .brand small{color:#9aa39b}
 button{font:inherit}
 /* nav: hamburger below 860px, full-width menu rows */
 @media (max-width:860px){
-  .menu-btn{display:block}
+  .menu-btn{display:inline-flex;align-items:center;gap:.45rem}
   .nav ul{display:none;position:absolute;top:76px;left:0;right:0;flex-direction:column;align-items:stretch;background:var(--paper);border-bottom:1px solid var(--line);padding:.6rem 4vw 1.4rem;gap:0;box-shadow:0 12px 24px rgba(11,58,33,.12)}
   .nav ul.open{display:flex}
   .nav ul li{width:100%}
